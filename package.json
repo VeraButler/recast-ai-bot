@@ -1,0 +1,23 @@
+{
+  "name": "my-bot",
+  "version": "1.0.0",
+  "description": "Practive Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VeraButler/recast-ai-bot.git"
+  },
+  "author": "Vera Butler <verabutlerdesign@gmail.com> (verabutlerdesign.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VeraButler/recast-ai-bot/issues"
+  },
+  "homepage": "https://github.com/VeraButler/recast-ai-bot#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  }
+}
