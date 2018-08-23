@@ -5,10 +5,14 @@ const app = express()
 const port = 5000 
 app.use(bodyParser.json()) 
 
+
+//get stores data in URL == unsafe
 app.get('/', (req, res) => {
   console.log(req, res)
   res.send("test")
 })
+
+//post stores data in web server
 app.post('/', (req, res) => {
   console.log(req.body)
 
